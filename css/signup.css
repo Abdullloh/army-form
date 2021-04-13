@@ -1,0 +1,57 @@
+.card-body {
+    padding: 2.5rem!important;
+}
+.card-body img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: #754ffe;
+    border-color: #754ffe;  
+}
+.link {
+    text-decoration: none;
+    color: #754ffe;
+    background-color: transparent;
+
+}
+.btn:hover {
+    color: #fff;
+    background-color: #5729fe;
+    border-color: #4d1cfe;
+}
+.form-check-label {
+    font-size: 15px;
+    
+}
+.btn-social-outline {
+    border-color: #eae7f5;
+    background-color: transparent;
+}
+.btn-social {
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0;
+    border: 1px solid transparent;
+    transition: border-color .25s ease-in-out,background-color .25s ease-in-out,color .25s ease-in-out;
+    border-radius: .25rem;
+    background-color: #eae7f5;
+    color: #a8a3b9;
+    font-size: .875rem;
+    text-align: center;
+    line-height: 2.25rem;
+}
+
+a:hover {
+    text-decoration:underline;
+    color: black;
+}
+.btn-social:hover {
+    background-color: #4078c0;
+}
