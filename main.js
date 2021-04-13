@@ -68,7 +68,7 @@ function myFunction(){
 
     let finalConfiguration = confirm('Malumotlar tugriligga aminmisiz?');
     
-    if ((finalConfiguration)&&(age > 18 && age < 35)&&(gender === 'erkak')&&(healthConfirmation ==="yo'q")&&(time === 'ertalab' || time ==="tushda" || time ==="kechqurun")&&(day === 'dushnba'|| day ==="seshanba"||day==="chorshanba")&&(howLong === '3 oy' || howLong === '6 oy'))
+    if ((finalConfiguration === 'true')&&(age > 18 && age < 35)&&(gender === 'erkak')&&(healthConfirmation ==="yo'q")&&(time === 'ertalab' || time ==="tushda" || time ==="kechqurun")&&(day === 'dushnba'|| day ==="seshanba"||day==="chorshanba")&&(howLong === '3 oy' || howLong === '6 oy'))
       alert('sizda hamma malumotlar tugri , ketishga tayyorgarli kuring')
       else {
         alert('kamchiliklar aniqlandi')
